@@ -46,15 +46,15 @@ return [
     'connections' => [
 
         'main' => [
-            'client_id' => 'd32a990f6160524f914976c669051d4c288a77f1',
-            'client_secret' => '7IBgScIUfOrtWsuzBTU299Xd01nyEKQqFJ56hrsExFrGoC6qAaSNVmMJ1PPOjDK1UCf9xLPWLP0tE22DnF/ilPgzchiO7VNDSrFpNRC7HChr3PGJG3eVno5+JCQIUC4/',
-            'access_token' => "de8b8895957bd1512b192f334e7553e6",
+            'client_id' => env('CLIENT_ID', ''),
+            'client_secret' => env('CLIENT_SECRET',''),
+            'access_token' => env('ACCESS_TOKEN',''),
         ],
 
         'alternative' => [
-            'client_id' => 'd32a990f6160524f914976c669051d4c288a77f1',
-            'client_secret' => '7IBgScIUfOrtWsuzBTU299Xd01nyEKQqFJ56hrsExFrGoC6qAaSNVmMJ1PPOjDK1UCf9xLPWLP0tE22DnF/ilPgzchiO7VNDSrFpNRC7HChr3PGJG3eVno5+JCQIUC4/',
-            'access_token' => "de8b8895957bd1512b192f334e7553e6",
+            'client_id' => env('CLIENT_ID', ''),
+            'client_secret' => env('CLIENT_SECRET',''),
+            'access_token' => env('ACCESS_TOKEN',''),
         ],
 
     ],
